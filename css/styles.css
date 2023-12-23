@@ -2,7 +2,7 @@
 }
 
 body {
-    font-family: 'Arial', "sans-serif","Segoe UI","Roboto","Helvetica Neue","Noto Sans","Liberation Mono","Courier New",monospace;
+    font-family: Arial, Geneva, Verdana, sans-serif, 'Courier New';
     margin: 0;
     padding: 0;
     /*box-sizing: border-box;*/
@@ -29,7 +29,7 @@ body {
   }
   header {
     background-color: #ffffff;
-    /*background-image:url("../img/Invit_wed\ \(5\).jpg") ;*/
+    /*background-image:url('../img/Invit_wed\ \(5\).jpg') ;*/
     background-position: center center ;
     background-size: 100%;
     /*padding: 20px;*/
@@ -60,7 +60,7 @@ body {
   h2,h4 { 
     font-size: 6rem;
     color: #000000;
-    font-family:  "Vladimir Script";
+    font-family: 'Vladimir Script','Dancing Script','Kunstler Script','Palace Script MT','Brush Script MT';
     font-weight: 5;
   }
   h9{
@@ -77,7 +77,7 @@ body {
   }
   /* Clear floats after the columns */
   .row:after {
-    content: "";
+    content: '';
     display: table;
     clear: both;
   }
@@ -181,8 +181,8 @@ body {
   */
 
   .gracias{
-    font-family: "Vladimir Script";
-
+    font-family: 'Vladimir Script','Dancing Script','Kunstler Script','Palace Script MT','Brush Script MT';
+    
     text-align:center;
 
     background-color:#427D9D;
