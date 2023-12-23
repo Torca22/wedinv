@@ -9,6 +9,17 @@ body {
     text-align: center;
     background-color: #ffffff
   }
+
+  @media only screen and (max-width: 600px) {
+    /* Estilos para pantallas pequeñas (móviles) */
+    /* ... */
+
+  }
+  img {
+    max-width: 100%;
+    height: auto; /* Mantener la proporción de la imagen */
+  }
+
   .container {
     
     font-size: 1.5rem;  
@@ -148,7 +159,7 @@ body {
     margin-bottom: 20px;
     padding: 10px 40px;
     text-decoration: none; 
-    transition: background-color 0.5s ease;
+    transition: background-color 0.8s ease;
     vertical-align: middle;
   }
 
