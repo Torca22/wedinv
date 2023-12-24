@@ -15,6 +15,10 @@ body {
     /* ... */
 
   }
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing Script');
+
+
   img {
     max-width: 100%;
     height: auto; /* Mantener la proporción de la imagen */
