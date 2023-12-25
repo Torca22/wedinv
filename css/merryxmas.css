@@ -16,9 +16,7 @@ body {
   
   .phrase{
     background-color:#ff0000;
-    color: #ffffff;
-    font-family: 'Great Vibes','Pacifico', 'Kaushan Script', 'Tangerine';
-  }
+ }
   #snowGlobeContainer {
     background-color:#73b4ab;	
     top: 20px; /* Ajusta según sea necesario */
@@ -78,11 +76,19 @@ body {
   
 
   
-  h2,h4 { 
-    font-size: 5rem;
+  h4 { 
+    font-size: 4.5rem;
     color: #000000;
     font-family: 'Dancing Script',Satisfy,'Great Vibes',Pacifico, 'Kaushan Script', Tangerine;
     font-weight: 5;
+  }
+  
+  h3 { 
+    font-size: 3rem;
+    font-weight: 5;
+    color: #ffffff;
+    font-family: 'Great Vibes','Pacifico', 'Kaushan Script', 'Tangerine';
+ 
   }
   
 
