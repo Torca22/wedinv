@@ -10,11 +10,11 @@ body {
     background-color: #ffffff
   }
 
-  @media only screen and (max-width: 600px) {
+  /* @media only screen and (max-width: 600px) {
     /* Estilos para pantallas pequeñas (móviles) */
     /* ... */
 
-  }
+  /*} */
 
   @import url('https://fonts.googleapis.com/css2?family=Dancing Script');
 
@@ -61,7 +61,7 @@ body {
     color: #164863;
   }
 
-  h2,h4 { 
+  h2,h4,cursiva { 
     font-size: 6rem;
     color: #000000;
     font-family: 'Vladimir Script','Dancing Script','Kunstler Script','Palace Script MT','Brush Script MT';
