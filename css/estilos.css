@@ -14,7 +14,39 @@ body {
     font-family: 'Dancing Script','Kunstler Script','Palace Script MT','Brush Script MT';
     font-weight: 5;
   }
+
+  .ccc {
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    animation-name: cambiarColor;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    /* animation: cambiarColor 2s 1s; */ }
+   @keyframes cambiarColor {
+    from {color: rgb(255,255,255);background-color: rgb(255, 255, 255);transform: translate(0px, -30px)}
+    to {color: rgb(0,0,0);background-color: yellow;}
+   }
+
+   .ddd {
+    background-color: rgb(255, 255, 255);
+    animation-name: cambiarColor2;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    /* animation-iteration-count: infinite; */
+    
+}
+
+@keyframes cambiarColor2 {
+    0% {background: rgb(251, 251, 251);}
+    /* Primer fotograma */
+    50% {background: yellow;}
+    /* Segundo fotograma */
+    100% {background: rgb(255, 255, 255);}
+    /* Último fotograma */
+   }
+
   h2{ 
+    transition: all 2s ease-in;
     font-family: 'Pacifico','Dancing Script','Kunstler Script','Palace Script MT','Brush Script MT';
     font-weight: 5;
   }
@@ -35,4 +67,23 @@ body {
     font-family: 'Tangerine','Dancing Script','Kunstler Script','Palace Script MT','Brush Script MT';
     font-weight: 5;
   }
+
+.section {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+
+/* Estilo para el contenedor del texto */
+.text-container {
+    opacity: 0; /* Inicialmente establece la opacidad a 0 para el fade-in */
+    transform: translateY(50px); /* Inicialmente desplaza el texto hacia abajo */
+    transition: opacity 0.8s ease, transform 0.8s ease; /* Agrega una transición suave */
+}
+
+/* Cuando la sección está enfocada, realiza la animación */
+.section:focus-within .text-container {
+    opacity: 1; /* Cambia la opacidad a 1 para el fade-in */
+    transform: translateY(0); /* Desplaza el texto a su posición designada */
+}
 

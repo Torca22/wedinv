@@ -29,11 +29,13 @@
 
   <body>
     <h1>El momento se acerca y queremos compartirlo contigo <br></h1>
+    <div class="ccc">
     <h2>El momento se acerca  y queremos compartirlo contigo <br></h2>
+    </div>
     <h3>El momento se acerca y queremos compartirlo contigo <br></h3>
-    
+    <div class="ddd">
     <h4>El momento se acerca y queremos compartirlo contigo<br> </h4>
-    
+    </div>
     <h5>El momento se acerca y queremos compartirlo contigo<br></h5>
     
     <h6>El momento se acerca y queremos compartirlo contigo<br></h6>
@@ -41,4 +43,42 @@
     <h7>El momento se acerca y queremos compartirlo contigo<br></h7>
     
     <h8>El momento se acerca y queremos compartirlo contigo<br></h8>
-    </body>
+    
+    <div class="section" tabindex="0"> <!-- Agrega tabindex para que la sección pueda enfocarse -->
+        <div class="text-container">
+            <p>Texto de la sección 1</p>
+        </div>
+    </div>
+
+    <!-- Sección 2 -->
+    <div class="section" tabindex="0">
+        <div class="text-container">
+            <p>Texto de la sección 2</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="text-container">
+            <p>Texto de la sección 3</p>
+        </div>
+    </div>
+
+    <!-- Sección 2 -->
+    <div class="section">
+        <div class="text-container">
+            <p>Texto de la sección 4</p>
+        </div>
+    </div>
+
+    <!-- Agrega más secciones según sea necesario -->
+
+    <script>
+        // Añadir script para aplicar la clase automáticamente después de cargar la página
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('.section .text-container').forEach(function(element) {
+                element.classList.add('animate'); // Agregar la clase 'animate' para iniciar la animación
+            });
+        });
+    </script>
+
+</body>
