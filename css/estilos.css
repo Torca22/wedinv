@@ -1,0 +1,38 @@
+* {box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Geneva, Verdana, sans-serif, 'Courier New';
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+    text-align: center;
+    background-color: #ffffff
+  }
+
+  h1{ 
+    font-family: 'Dancing Script','Kunstler Script','Palace Script MT','Brush Script MT';
+    font-weight: 5;
+  }
+  h2{ 
+    font-family: 'Pacifico','Dancing Script','Kunstler Script','Palace Script MT','Brush Script MT';
+    font-weight: 5;
+  }
+  h3{ 
+    font-family: 'Satisfy','Dancing Script','Kunstler Script','Palace Script MT','Brush Script MT';
+    font-weight: 5;
+  }
+
+  h4{ 
+    font-family: 'Great Vibes','Dancing Script','Kunstler Script','Palace Script MT','Brush Script MT';
+    font-weight: 5;
+  }
+  h5{ 
+    font-family: 'Kaushan Script','Dancing Script','Kunstler Script','Palace Script MT','Brush Script MT';
+    font-weight: 5;
+  }
+  h6{ 
+    font-family: 'Tangerine','Dancing Script','Kunstler Script','Palace Script MT','Brush Script MT';
+    font-weight: 5;
+  }
+
