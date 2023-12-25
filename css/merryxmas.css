@@ -1,0 +1,140 @@
+* {box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Geneva, Verdana, sans-serif, 'Courier New';
+    margin: 0;
+    padding: 0;
+    
+    text-align: center;
+     /* background-color: #ffffff; */
+    /* background-color: #ff0000;	 */
+    background-color:#378b29;	
+    /* background-color:#74d680; */ 
+    /* background-color:#378b29;	 */
+  }
+  
+  .phrase{
+    background-color:#ff0000;
+    color: #ffffff;
+    font-family: 'Great Vibes','Pacifico', 'Kaushan Script', 'Tangerine';
+  }
+  #snowGlobeContainer {
+    background-color:#73b4ab;	
+    top: 20px; /* Ajusta según sea necesario */
+    max-width: 100%; /* Ajusta según sea necesario */
+    height: 600px; /* Ajusta según sea necesario */
+    z-index: 100; /* Ajusta según sea necesario, asegúrate de que sea mayor que el z-index de otras secciones */
+  }
+
+
+  #globe {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vmin;
+    height: 80vmin;
+    transform-origin: 50% 60%;
+  }
+  
+  #globe:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/127738/globe.svg) center center / contain no-repeat;
+    z-index: 10;
+  }
+  
+  canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto; /* Mantener la proporción de la imagen */
+  }
+
+  .container {
+    font-size: 1.5rem;  
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .icono{
+    align-items: center;
+    padding: 10px;
+    max-width: 10vw;
+  }
+  
+
+  
+  h2,h4 { 
+    font-size: 5rem;
+    color: #000000;
+    font-family: 'Dancing Script',Satisfy,'Great Vibes',Pacifico, 'Kaushan Script', Tangerine;
+    font-weight: 5;
+  }
+  
+
+
+  .row{
+    justify-content: space-evenly;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+    /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    max-width: 50vw;
+    padding: 10px;
+  }
+
+  .column img {
+    margin-top: 12px;
+    max-height: 10%;
+    border-radius: 10px
+  }
+
+  .gallery {
+    background-color:#ffffff;	
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start; /* Ajusta esto según tus preferencias */
+  }
+
+  .gallery-item {
+    width: 48%; /* Ajusta el ancho según tus necesidades */
+    margin-bottom: 12px;
+    /*box-sizing:  border-box; /* Asegura que el padding y el borde se incluyan en el ancho especificado */
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    border-radius: 10px; /* O cualquier otra propiedad de borde que desees */
+  }
+
+  .footer {
+    bottom: 0;
+    color: rgb(153, 153, 153);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+

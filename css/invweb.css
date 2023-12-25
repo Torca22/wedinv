@@ -10,13 +10,10 @@ body {
     background-color: #ffffff
   }
 
-
 img {
   max-width: 100%;
   height: auto; /* Mantener la proporción de la imagen */
 }
-
-
 
 /* Ajusta la opacidad de la segunda imagen según sea necesario */
   .container {
@@ -26,7 +23,13 @@ img {
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
-  
+
+  .logo{
+    padding: 10%;
+    max-height: 125%;
+    width: auto;
+  }
+
   header {
     background-color: #ffffff;
     /*background-image:url('../img/Invit_wed\ \(5\).jpg') ;*/
