@@ -18,16 +18,18 @@ img {
 /* Ajusta la opacidad de la segunda imagen según sea necesario */
   .container {
     
-    font-size: 1.5rem;  
+    font-size: 1.4rem;  
     height: auto;
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
 
   .logo{
-    padding: 10%;
-    max-height: 125%;
-    width: auto;
+    /* padding: 10%; */
+    /* max-height: 125%; */
+    /* width: auto; */
+    width: 10
+    0%;
   }
 
   header {
@@ -56,8 +58,8 @@ img {
   
 
   .info, .dresscode,.asistencia{
-    background-color: #87C4FF;
-    color: #164863;
+    background-color:#D4E7C5;
+    color:  #004225;
   }
 
   
@@ -68,9 +70,11 @@ img {
     font-weight: 5;
   }
   
-  h3, h5{
-    font-size: 1.8rem;
-    color: #164863;
+  h3, h5, h7{
+    font-size: 2rem;
+    color: #004225;
+    font-family: 'Dancing Script',Satisfy,'Great Vibes',Pacifico, 'Kaushan Script', Tangerine;
+    
   }
 
   .row{
@@ -95,9 +99,6 @@ img {
     max-height: 10%;
     border-radius: 10px
   }
-
-
-
 
   .gallery {
     background-color: #ffffff;
@@ -125,7 +126,7 @@ img {
   }
 
   .btn {
-    background-color: #164863;
+    background-color: #294B29;
     border-radius: 30px;
     
     color: rgb(255, 255, 255);
@@ -133,7 +134,8 @@ img {
     
     font-size: 1.8rem;
     
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Dancing Script',Satisfy,'Great Vibes',Pacifico, 'Kaushan Script', Tangerine;
+    
     line-height: 1.5;
     margin-bottom: 20px;
     padding: 10px 40px;
@@ -143,19 +145,20 @@ img {
   }
 
   .active, .collapsible:hover, .btn:hover {
-    background-color: #427D9D;
+    background-color: #50623A;
   }
   .collapsible {
-    background-color: #164863;
+    
+    background-color: #294B29;
     border-radius: 30px;
     
     color: rgb(255, 255, 255);
     display: inline-block;
     
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 3;
     
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Dancing Script',Satisfy,'Great Vibes',Pacifico, 'Kaushan Script', Tangerine;
     line-height: 1.5;
     margin-bottom: 20px;
     padding: 10px 40px;
@@ -173,6 +176,7 @@ img {
     transition: max-height 0.2s ease-out;
   }
 
+
   /* .asistencia {
     background-color: #164863;
     color:    #87C4FF;
@@ -186,7 +190,7 @@ img {
     
     text-align:center;
 
-    background-color:#427D9D;
+    background-color:#99BC85;
     
     font-size: 4.5rem;
     color: rgb(255, 255, 255);
